@@ -25,8 +25,8 @@ jobs:
           python -m pip install --upgrade pip
       - name: Run tests
         run: |
-          python exercise_1.py
-          python exercise_2.py
-          python exercise_3.py
-          python exercise_4.py
-          python bonus_exercise.py
+          python exercises/exercise_1.py
+          python exercises/exercise_2.py
+          python exercises/exercise_3.py
+          python exercises/exercise_4.py
+          python exercises/bonus_exercise.py
